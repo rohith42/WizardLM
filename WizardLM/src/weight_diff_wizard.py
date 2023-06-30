@@ -18,7 +18,7 @@ import fire
 import torch
 import tqdm
 import transformers
-from train import smart_tokenizer_and_embedding_resize
+from train_freeform import smart_tokenizer_and_embedding_resize
 
 
 @torch.inference_mode()
